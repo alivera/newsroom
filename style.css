@@ -1,0 +1,164 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    padding-bottom: 5px;
+}
+
+
+.header input {
+    width: 100px;
+    height:20px;
+    background-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.button1 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px rgb(10,23,247) solid;
+    padding: 3px 10px;
+    position: relative;
+    right: 30px;
+}
+
+
+.nav {
+    background-color: rgb(20,34,47);
+    padding-top: 5px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: 10px 6px 17px 6px;
+    text-decoration: none;
+    color: white;
+}
+
+.active-btn {
+    background-color: rgb(10,23,247);
+}
+
+.nav a:hover {
+    background-color: rgb(10,23,247);
+}
+
+
+.main {
+    background: url("http://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg")center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 400px;
+}
+
+.main .container {
+    padding: 15px 25px 15px 25px;    
+}
+
+.main p {
+    padding-top: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main h1 {
+    font-size: 70px;
+}
+
+.main .underline {
+    border-bottom: 4px blue solid;    
+}
+
+.main h3 {
+    padding-top: 25px;
+    color: white;
+    font-size: 21px;
+}
+
+.supporting {
+    background-color: rgb(243,243,243);    
+}
+
+.supporting .row {
+    padding: 60px;    
+}
+
+.sup1 > h4 {
+    border-bottom: 2px blue solid;
+    display: inline-block;
+}
+
+.sup2 > h4 {
+    border-bottom: 2px blue solid;
+    display: inline-block;
+}
+
+.sup1 {
+    padding: 30px;
+    background-color: white;
+}
+
+.sup2 {
+    background-color: rgb(20,34,47);
+    color: white;
+    padding: 30px;
+}
+
+.banner {
+    padding: 0px 45px 50px 45px;
+}
+
+.footer {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style-type: none;    
+}
+
+.footer li{
+    display: inline;
+    padding: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: blue;    
+}
